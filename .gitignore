@@ -1,0 +1,14 @@
+# Angular
+Client/client/node_modules/
+Client/client/.angular/
+Client/client/dist/
+
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Environment / VS Code
+.vscode/
+.idea/

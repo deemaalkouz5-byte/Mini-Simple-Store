@@ -1,6 +1,6 @@
 # QA TEST REPORT
 
-**Student Name:** [Enter your name here]  
+**Student Name:** Dima Ra'ed Alkouz
 **Project Name:** MiniStore (Full-Stack E-Commerce Application)  
 **Date:** September 26, 2026  
 

@@ -1,0 +1,25 @@
+<nav class="navbar">
+  <div class="logo">
+    <a routerLink="/products">Mini Store</a>
+  </div>
+
+  <ul class="nav-links">
+    <li>
+      <a routerLink="/products" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        Products
+      </a>
+    </li>
+    <li>
+      <a routerLink="/products/new" routerLinkActive="active">
+        Add Product
+      </a>
+    </li>
+    <li>
+      <a routerLink="/cart" routerLinkActive="active" class="cart-link">
+        Cart
+        <!-- استدعاء الـ Signal الخاص بعدد العناصر -->
+        <span class="badge">{{ cartService.cartCount() }}</span>
+      </a>
+    </li>
+  </ul>
+</nav>
